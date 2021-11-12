@@ -1,0 +1,11 @@
+footer{
+    padding:20px;
+    background-color:white;
+   
+}
+
+.mat-toolbar{
+    font-size:medium;
+    font-weight: lighter;
+    color:black;
+}

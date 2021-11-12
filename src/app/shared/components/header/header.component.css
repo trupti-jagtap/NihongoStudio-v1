@@ -1,0 +1,41 @@
+header{
+    padding:0px;  
+}
+.navbar{
+    justify-content: space-between;
+    font-weight:normal;
+    font-size: medium;
+    background-color: #ffd3e8;
+    color: rgb(0, 0, 0);
+    height: 60px;
+  }
+  span{
+    padding-right:1rem;
+    
+  }
+  /*Logo styling*/
+  .s1
+  {
+    color: red;
+    font-weight: bold;
+    padding-right: 0rem;
+  }
+
+  .s2
+  {
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    margin: 0%;
+  }
+  
+  
+  .btn
+{
+    background-color: #ffd3e8;
+    color: rgb(0, 0, 0);
+    border: none;
+    cursor: pointer;
+    padding: 2px 15px 3px 15px;
+    text-decoration: none;
+
+}

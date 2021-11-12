@@ -1,0 +1,31 @@
+h1{
+  text-align: center;
+  color: red;
+  font-size: 25px;
+  }
+  
+  h2{
+      text-align: center;
+      font-size: 25px;
+  }
+  
+  P{
+   text-align: center;
+   font-size: large;
+  }
+  .btn-group button {
+    background-color: white;
+    border: 1px solid black;
+    color: black;
+    font-size: x-large;
+    padding: 10px 24px;
+    border-radius: 12px ;
+    height:150px;
+    width:300px;
+}
+p{
+  position: relative;
+  left: 30px;
+  text-align: center;
+  font-size: 18px;
+}

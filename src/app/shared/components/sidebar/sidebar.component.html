@@ -1,0 +1,75 @@
+<!-- <br>
+<mat-sidenav-container class="example-container" >
+    <mat-sidenav >
+      Sidenav content
+    </mat-sidenav>
+
+<mat-sidenav-content>
+
+    <div class="example-button-row">
+        <button mat-button   routerLink="/practice">Practice</button><br><br>
+        <button mat-button   routerLink="/courses">Courses</button><br><br>
+        <button mat-button   routerLink="/jlptpreparation">JLPT Preparation</button><br><br>
+        <button mat-button   routerLink="/findyourlevel">Find Your Level</button><br><br>
+        </div>
+    
+  </mat-sidenav-content>
+</mat-sidenav-container>
+ -->
+
+ <mat-toolbar>
+  <button mat-icon-button *ngIf="sidenav.mode === 'over'" (click)="sidenav.toggle()">
+      <mat-icon *ngIf="!sidenav.opened">
+        menu
+      </mat-icon>
+      <mat-icon *ngIf="sidenav.opened">
+        close
+      </mat-icon>
+  </button>
+  <div style="padding-left:20px;"><span class="s1">Nihongo</span><span class="s2">Studio</span></div>
+  <div style="text-align:right; margin:0px auto 0px auto;">
+    <span class="btn" routerLink="/home">Home</span>
+    <span  class="btn" >Services</span>
+    <span class="btn" routerLink="/about_us">About us</span>
+    <span class="btn" routerLink="/contact_us">Contact Us</span>
+    <span class="btn">Log In</span>
+
+  </div>
+</mat-toolbar>
+
+<mat-sidenav-container [hasBackdrop]="false" >
+  <mat-sidenav #sidenav="matSidenav" class="mat-elevation-z8" [fixedInViewport]="false">
+    
+    <button mat-button class="menu-button" routerLink="/practice">
+      Practice
+    </button>
+    <hr>
+    <button mat-button class="menu-button" routerLink="/courses">
+      Courses
+    </button>
+    <hr>
+    <button mat-button class="menu-button" routerLink="/jlptpreparation">
+      JLPT Preparations
+    </button>
+    <hr>
+    <button mat-button class="menu-button" routerLink="/findyourlevel">
+      Find Your Level
+    </button>
+    <hr>
+  </mat-sidenav>
+
+ <mat-sidenav-content [style.left]="sidenav.opened ? '.25px' : '0'">
+
+  <div class="content mat-elevation-z8 main_content">
+
+      <router-outlet>
+
+        
+      </router-outlet>
+    </div>
+   
+   
+  </mat-sidenav-content> 
+</mat-sidenav-container>
+
+ 

@@ -1,0 +1,39 @@
+table {
+   width:80%;
+    background-color: rgb(245, 245, 245);
+  }
+
+  .mat-table{
+    align-self: center;
+    margin-left: 100px;
+    margin-right: 100px;
+  }
+  .mystyle{
+  width: 32px;
+  font-size: 50px;
+  padding-right: 24px;
+  text-align: center;
+  font-weight: bold;
+  
+  }
+  h1{
+    text-align: center;
+  }
+  .mat-cell{
+    font-size:large;
+    border-style:none;
+    
+  }
+
+  .jap{
+    font-weight: bold;
+    
+  }
+
+  .mat-header-cell{
+    font-size:large;
+    font-weight: bold;
+    font-style: normal;
+    border-style:none;
+    color: rgb(0, 0, 0);
+  }
