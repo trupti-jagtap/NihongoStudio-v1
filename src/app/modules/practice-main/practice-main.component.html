@@ -1,5 +1,60 @@
-<mat-card>1000 Basic Japanese Words for beginners</mat-card>
-<mat-card>Travelling</mat-card>
+<div class="practice_cards">
+
+  <mat-card class="card" routerLink='/practice/hiragana_katakana'>
+    <mat-card-content>
+      <img mat-card-image src="/assets/japan_writing.jpg">
+      <mat-card-title>Hiragana and Katakana</mat-card-title>
+    </mat-card-content>
+  </mat-card>
+
+  <mat-card class="card" routerLink='/practice/1000_common_words'>
+    <mat-card-content>
+      <img mat-card-image src="/assets/Japan_Common_Words.jpg">
+      <mat-card-title> 1000 common Japanese Words</mat-card-title>
+
+    </mat-card-content>
+  </mat-card>
+  <mat-card class="card" routerLink='/practice/travelling_words'>
+    <mat-card-content>
+      <img mat-card-image src="/assets/Japan_Travel.jpg">
+      <mat-card-title>Japanese Travel Vocabulary</mat-card-title>
+
+    </mat-card-content>
+  </mat-card>
+
+  <mat-card class="card">
+
+    <mat-card-content routerLink='/practice/numbers'>
+      <img mat-card-image src="/assets/japan_numbers.jpg">
+      <mat-card-title>Counting and Numbers</mat-card-title>
+
+    </mat-card-content>
+  </mat-card>
+
+
+  <mat-card class="card" routerLink='/practice/days_and_months'>
+    <mat-card-content>
+      <img mat-card-image src="/assets/japan_day_month.jpg">
+      <mat-card-title>Days and Months</mat-card-title>
+
+    </mat-card-content>
+  </mat-card>
+  <mat-card class="card" routerLink='/practice/food_words'>
+    <mat-card-content>
+      <img mat-card-image src="/assets/japan_food.jpg">
+      <mat-card-title>Japanese Food names that you should know!!</mat-card-title>
+
+    </mat-card-content>
+  </mat-card>
+
+  
+
+</div>
+
+
+
+<!-- <mat-card>1000 Basic Japanese Words for beginners</mat-card>
+<mat-card>Travelling</mat-card> -->
 
 
 
@@ -11,26 +66,26 @@
 
    Note that these columns can be defined in any order.
           The actual rendered columns are set as a property on the row definition" -->
-  
-    <!-- Position Column
+
+<!-- Position Column
     <ng-container matColumnDef="position">
       <th mat-header-cell *matHeaderCellDef> No. </th>
       <td mat-cell *matCellDef="let element"> {{element.position}} </td>
     </ng-container>-->
-  
-    <!-- Word Column 
+
+<!-- Word Column 
     <ng-container matColumnDef="word">
       <th mat-header-cell *matHeaderCellDef> Word </th>
       <td mat-cell class="jap" *matCellDef="let element"> {{element.word}} </td>
     </ng-container>-->
 
-    <!-- Romaji Column 
+<!-- Romaji Column 
     <ng-container matColumnDef="romaji">
       <th mat-header-cell *matHeaderCellDef> Romaji </th>
       <td mat-cell *matCellDef="let element"> {{element.romaji}} </td>
     </ng-container>-->
-  
-    <!-- Weight Column 
+
+<!-- Weight Column 
     <ng-container matColumnDef="meaning">
       <th mat-header-cell *matHeaderCellDef> Meaning </th>
       <td mat-cell *matCellDef="let element"> {{element.meaning}} </td>

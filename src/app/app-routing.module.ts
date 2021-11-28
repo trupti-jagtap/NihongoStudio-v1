@@ -11,6 +11,12 @@ import { JLPTPreparationMainComponent } from './modules/jlptpreparation-main/jlp
 import { MiddleComponent } from './modules/middle/middle.component';
 import { PracticeMainComponent } from './modules/practice-main/practice-main.component';
 import { UpperComponent } from './modules/upper/upper.component';
+import { CommonWordsComponent } from './practice_component/common-words/common-words.component';
+import { DaysMonthWordsComponent } from './practice_component/days-month-words/days-month-words.component';
+import { FoodWordsComponent } from './practice_component/food-words/food-words.component';
+import { NumbersComponent } from './practice_component/numbers/numbers.component';
+import { TravellingWordsComponent } from './practice_component/travelling-words/travelling-words.component';
+import { WritingComponent } from './practice_component/writing/writing.component';
 
 const routes: Routes = [
   {
@@ -58,7 +64,32 @@ const routes: Routes = [
     {
       path: 'contact_us',
       component: ContactusComponent
-    }]
+    },
+    {
+      path:'practice/1000_common_words',
+      component: CommonWordsComponent
+    },
+    {
+      path:'practice/days_and_months',
+      component: DaysMonthWordsComponent
+    },
+    {
+      path:'practice/food_words',
+      component:FoodWordsComponent
+    },
+    {
+      path:'practice/numbers',
+      component: NumbersComponent
+    },
+    {
+      path:'practice/travelling_words',
+      component:TravellingWordsComponent
+    },
+    {
+      path:'practice/hiragana_katakana',
+      component:WritingComponent
+    },
+  ]
   }
 ];
 

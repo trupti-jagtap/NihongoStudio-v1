@@ -1,6 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 
 
+
 const ELEMENT_DATA: WordList[] = [
   {position: 1, word: 'かぞく', romaji: 'kazoku',meaning: 'family'},
   {position: 2, word: 'ともだち', romaji: 'tomodachi',meaning: 'friend'},
@@ -23,7 +24,8 @@ const ELEMENT_DATA: WordList[] = [
 
 export class PracticeMainComponent implements OnInit{
 
-  constructor() { }
+  constructor(){
+  }
   
   ngOnInit(): void {
   }
@@ -31,6 +33,7 @@ export class PracticeMainComponent implements OnInit{
   dataSource = ELEMENT_DATA;
 
 }
+
 export interface WordList {
   position:number;
   word: string;

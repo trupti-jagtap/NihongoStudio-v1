@@ -1,28 +1,78 @@
+.grid-container {
+    display: grid;
+    width:1000px;
+    /*align-self:center;*/
+    padding: 10px;
+    font-size: large;
+    line-height:2rem;
+   
+  }
 
-
-h2{
+  span {
     text-align: center;
-}
+    display: inline-block;
+    width: 100%;
+    background-color: transparent;
+    color: rgb(5, 87, 80);
+    font-weight: bold;
+  }
+  
+  h2{
+    font-size: 26px;
+    font-weight: bold;
+    color: darkred;
+  }
 
-img{
-    border-radius: 5px;
-    background-color: rgba(0,0,0,0.05);
-    width: 20rem;
-    box-shadow: 5px 5px grey;
-    padding: 5px;
-}
+  li{
+    margin-left: -30px;
+    text-align: justify;
+  }
+  
+  h3{
+    font-size: 20px;
+    font-weight: bold;
+  }
 
-.begi-course-container{
-    display: flex;
-    flex-direction: row;
-    /* font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; */
-}
+  .course_img{
+opacity: 40%;
+  }
 
-.container{
-    padding: 15px;
-}
+  mat-card{
+    height: 500px;
+width: 800px;
+align-self: center;
+  }
+  .container {
+    position: relative;
+    text-align: center;
+    color: white;
+  }
 
-button{
-    color:#FFFFFF;
-    background-color:#30D5C8;
-}
+  
+
+  .glow {
+    font-size: 80px;
+    color: #fff;
+    text-align: center;
+    animation: glow 1s ease-in-out infinite alternate;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 50px;
+    font-weight: bold;
+  
+  
+  }
+  
+  @keyframes glow {
+    from {
+      text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
+    }
+    
+    to {
+      text-shadow: 0 0 20px #fff, 0 0 30px #ff4da6, 0 0 40px #ff4da6, 0 0 50px #ff4da6, 0 0 60px #ff4da6, 0 0 70px #ff4da6, 0 0 80px #ff4da6;
+    }
+  }
+
+  .overlay { display: block; }

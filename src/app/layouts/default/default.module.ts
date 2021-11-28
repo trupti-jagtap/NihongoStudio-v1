@@ -12,6 +12,14 @@ import {MatTableModule} from '@angular/material/table';
 import {MatCardModule} from '@angular/material/card';
 import {MatToolbarModule} from '@angular/material/toolbar';
 import { BeginnerComponent } from 'src/app/modules/beginner/beginner.component';
+import { MiddleComponent } from 'src/app/modules/middle/middle.component';
+import { UpperComponent } from 'src/app/modules/upper/upper.component';
+import { CommonWordsComponent } from 'src/app/practice_component/common-words/common-words.component';
+import { DaysMonthWordsComponent } from 'src/app/practice_component/days-month-words/days-month-words.component';
+import { FoodWordsComponent } from 'src/app/practice_component/food-words/food-words.component';
+import { NumbersComponent } from 'src/app/practice_component/numbers/numbers.component';
+import { TravellingWordsComponent } from 'src/app/practice_component/travelling-words/travelling-words.component';
+import { WritingComponent } from 'src/app/practice_component/writing/writing.component';
 
 
 
@@ -22,7 +30,15 @@ import { BeginnerComponent } from 'src/app/modules/beginner/beginner.component';
     CoursesMainComponent,
     FindYourLevelMainComponent,
     JLPTPreparationMainComponent,
-    BeginnerComponent
+    BeginnerComponent,
+    MiddleComponent,
+    UpperComponent,
+    CommonWordsComponent,
+    FoodWordsComponent,
+    NumbersComponent,
+    TravellingWordsComponent,
+    WritingComponent,
+    DaysMonthWordsComponent
   ],
   imports: [
     CommonModule,
