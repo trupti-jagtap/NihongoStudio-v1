@@ -20,6 +20,11 @@ import { FoodWordsComponent } from 'src/app/practice_component/food-words/food-w
 import { NumbersComponent } from 'src/app/practice_component/numbers/numbers.component';
 import { TravellingWordsComponent } from 'src/app/practice_component/travelling-words/travelling-words.component';
 import { WritingComponent } from 'src/app/practice_component/writing/writing.component';
+import { ContactusComponent } from 'src/app/modules/contactus/contactus.component';
+import { ReactiveFormsModule } from '@angular/forms';
+import { HttpClientModule } from "@angular/common/http";
+import { NoopAnimationsModule } from '@angular/platform-browser/animations';
+import { MatInputModule } from "@angular/material/input";
 
 
 
@@ -38,7 +43,8 @@ import { WritingComponent } from 'src/app/practice_component/writing/writing.com
     NumbersComponent,
     TravellingWordsComponent,
     WritingComponent,
-    DaysMonthWordsComponent
+    DaysMonthWordsComponent,
+    ContactusComponent
   ],
   imports: [
     CommonModule,
@@ -47,7 +53,10 @@ import { WritingComponent } from 'src/app/practice_component/writing/writing.com
     SharedModule,
     MatTableModule,
     MatCardModule,
-    MatToolbarModule
+    MatToolbarModule,
+    ReactiveFormsModule,
+    HttpClientModule,
+    MatInputModule
   ]
 })
 export class DefaultModule { }

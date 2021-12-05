@@ -1,0 +1,79 @@
+.grid-container {
+    display: grid;
+    width:1000px;
+    /*align-self:center;*/
+    padding: 10px;
+    font-size: large;
+    line-height:2rem;
+   
+  }
+
+  span {
+    text-align: center;
+    display: inline-block;
+    width: 100%;
+    background-color: transparent;
+    color: rgb(5, 87, 80);
+    font-weight: bold;
+  }
+  
+  h2{
+    font-size: 26px;
+    font-weight: bold;
+    color: darkred;
+  }
+
+  li{
+    margin-left: -30px;
+    text-align: justify;
+  }
+  
+  h3{
+    font-size: 20px;
+    font-weight: bold;
+  }
+
+  .course_img{
+opacity: 40%;
+  }
+
+  mat-card{
+    height: 500px;
+width: 800px;
+align-self: center;
+  }
+  .container {
+    position: relative;
+    text-align: center;
+    color: white;
+  }
+
+  
+
+  .glow {
+    font-size: 80px;
+    /* width */
+    color: #fff;
+    text-align: center;
+    animation: glow 1s ease-in-out infinite alternate;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 50px;
+    font-weight: bold;
+    white-space: nowrap;
+  
+  }
+  
+  @keyframes glow {
+    from {
+      text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
+    }
+    
+    to {
+      text-shadow: 0 0 20px #fff, 0 0 30px #ff4da6, 0 0 40px #ff4da6, 0 0 50px #ff4da6, 0 0 60px #ff4da6, 0 0 70px #ff4da6, 0 0 80px #ff4da6;
+    }
+  }
+
+  .overlay { display: block; }

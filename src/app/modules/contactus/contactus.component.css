@@ -1,7 +1,7 @@
 *{box-sizing: border-box;}
 body{
     margin: 0px;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    /* font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; */
    /*margin-left: 14em;
     margin-right: 10em;*/
 }
@@ -13,6 +13,7 @@ h3{
     width: 41%;
     padding: 0 10px;
   }
+
 .row {margin-left: 12rem;}  
 
 .row:after {
@@ -25,7 +26,7 @@ h3{
     width: 137px;
     height: 41px;
     border-radius: 15px;
-    background-color: #F8AFA6;
+    background-color: #30D5C8;
     border: transparent;
    /* margin: 10px;
     position:absolute;*/
@@ -38,7 +39,7 @@ h3{
     width: 137px;
     height: 41px;
     border-radius: 15px;
-    background-color: #F8AFA6;
+    background-color: #30D5C8;
     border: transparent;
     top: 50%;
     margin:auto;
@@ -50,19 +51,22 @@ h3{
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
     padding: 16px;
     text-align: center;
-    background-color: #FADCD9;
+    background-color: #37ddcf4f;
     height: 23rem;
+    border-radius: 20px;
   }
   
-#form{
+/* #form{
     display: flex;
     flex-direction: column;
     margin-top: 51px;
-}
+} */
 input, textarea{
-    margin: 5px;
+    margin: 5px 0;
     padding: 2px;
-    width: 21rem;
+    width: 22rem;
+    border: none;
+    border-radius: 3px;
 }
   /* Responsive columns */
 @media screen and (max-width: 600px) {
@@ -91,4 +95,50 @@ h3{
      width: auto;
   }
 
+ /*form*/
+ .hidden {
+	display: none
+}
+.visible {
+	display: block
+}
+.center-text {
+	text-align: center
+}
+form.contact {
+	display: flex;
+	flex-direction: column;
+	max-width: 200px;
+	width: 200px;
+	/* margin-left: auto; */
+	/* margin-right: auto; */
+	margin-top: 30px;
+}
+
+label{
+    text-align: left;
+}
+
+button {
+	margin-bottom: 10px;
+}
+button {
+	margin-top: 10px;
+	background-color: rgba(5, 172, 172, 0.418);
+	color: white;
+	/* border: 1px solid black; */
+    border: none;
+	padding: 4px 16px;
+	transition: 0.4s;
+	/* width: 100%; */
+    width: 22rem;
+    height: 2rem;
+	margin-top: 10px;
+    border-radius: 15px;
+
+}
+button:hover:enabled{
+	color: white;
+	background-color: teal;
+}
  

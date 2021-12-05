@@ -22,7 +22,7 @@ for rounding an image use this class
 */
 
 mat-toolbar{
-  background-color:	#30D5C8; /* For browsers that do not support gradients */
+  background-color:	#30D5C8; /* For browsers that do not support gradients  #30D5C8*/
   background-image: linear-gradient(180deg, #1dd8c8, #b0f0f8);
   color: white;
  margin-top: 0px;
@@ -87,6 +87,7 @@ hr{
   border: none;
   cursor: pointer;
   padding-left: 20px;
+  font-size: 22px;
    
 }
 .btn

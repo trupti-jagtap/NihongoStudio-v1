@@ -1,3 +1,4 @@
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <mat-toolbar>
   <button mat-icon-button *ngIf="sidenav.mode === 'over'" (click)="sidenav.toggle()">
     <mat-icon *ngIf="!sidenav.opened">
@@ -16,8 +17,9 @@
     <span class="btn" routerLink="/about_us">About us</span>
     <span class="btn" routerLink="/contact_us">Contact Us</span>
     <!--<span class="btn">Log In</span> -->
-
+   
   </div>
+  <a href="https://www.jlpt.jp/e/application/overseas_list.html" target="_blank"><i class="fa fa-user-circle" aria-hidden="true" style="float: right;padding-right: 25px;font-size: 40px;color: white;"></i></a>
 </mat-toolbar>
 <!-- SIDENAV -->
 <mat-sidenav-container [hasBackdrop]="false">
