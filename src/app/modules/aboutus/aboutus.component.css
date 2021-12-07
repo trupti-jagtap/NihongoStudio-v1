@@ -21,6 +21,7 @@ body{
     flex-direction: column;
     width: 70rem;
     justify-content: center;
+    line-height:2rem;
 }
 
 img{
@@ -40,6 +41,7 @@ img{
     justify-content: center;
     gap:25px;
     padding-top:30px;
+    line-height:2rem;
 }
 
 .btn{

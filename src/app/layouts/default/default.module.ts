@@ -25,6 +25,7 @@ import { ReactiveFormsModule } from '@angular/forms';
 import { HttpClientModule } from "@angular/common/http";
 import { NoopAnimationsModule } from '@angular/platform-browser/animations';
 import { MatInputModule } from "@angular/material/input";
+import { HomepageComponent } from 'src/app/modules/homepage/homepage.component';
 
 
 
@@ -44,7 +45,8 @@ import { MatInputModule } from "@angular/material/input";
     TravellingWordsComponent,
     WritingComponent,
     DaysMonthWordsComponent,
-    ContactusComponent
+    ContactusComponent,
+    HomepageComponent
   ],
   imports: [
     CommonModule,
