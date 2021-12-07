@@ -3,8 +3,7 @@ mat-toolbar{
 }
 .courses{
     display: flex;
-    
-
+    justify-content: space-evenly;
 }
 
 .content {
@@ -39,9 +38,16 @@ mat-toolbar{
 button{
 color:#FFFFFF;
 background-color: #30D5C8;
-margin-left: 90px;
+margin-left: 29px;
+font-size: 15px;
 height: 40px;
-width: 100px;
+width: 200px;
+border-radius: 15px;
+}
+
+button:hover{
+    box-shadow: 0 10px 10px rgba(10,16,20,.24), 0 0 10px rgba(10,16,20,.12) !important;
+    font-size: 15px;
 }
 
 img{
@@ -71,10 +77,11 @@ img{
 
 /* To focus on card */
 .mat-card:hover {
-    border: #30D5C8;
-    border-style:solid;
+    /* border: #30D5C8;
+    border-style:solid; */
+    border:2px solid gray;
     box-shadow: 0 10px 10px rgba(10,16,20,.24), 0 0 10px rgba(10,16,20,.12) !important;
     transform: translate3d(0,0,0);
-    transition: background .4s cubic-bezier(.25,.8,.25,1),box-shadow 280ms cubic-bezier(.4,0,.2,1);
-  }
+    transition: background .4s cubic-bezier(.25,.8,.25,1),box-shadow 220ms cubic-bezier(.4,0,.2,1);
+}
 

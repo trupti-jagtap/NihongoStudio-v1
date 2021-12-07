@@ -1,0 +1,143 @@
+*{
+    font-size: 17px;
+}
+img{
+    width: 100%;
+    background-color: black;
+    opacity: 0.9;
+}
+
+.first_section{
+    width: 80%;
+    text-align: left;
+    margin-left: 8rem;
+    /* border: 1px solid black; */
+}
+
+.sec2{
+    display: flex;
+    margin: 5px;
+}
+
+.sec2 img{
+    width: 25%;
+    height: auto;
+}
+
+
+
+
+.call_to_action_cards{
+    display: flex;
+    justify-content: space-evenly;
+}
+.call_to_action_cards > mat-card {
+    width: 350px;
+    height:250px ;
+    background-color: #EAFDFB;
+    background-image: linear-gradient(to right, #ebeeee, #c4ebe8);
+    margin: 35px;
+}
+
+button{
+    color:#FFFFFF;
+    background-color: #30D5C8;
+    font-size: 14px;
+    height: 40px;
+    margin-left: 35%;
+    margin-right: 38%;
+    text-transform: capitalize;    
+    border-radius: 15px;
+    text-align: center;
+    /* position:  */
+    position: absolute;
+    top: 76%;
+    left: 16%;
+    width: 300px;
+    transform: translate(-50%, -50%);
+}
+
+mat-card-title{
+    padding: 5px;
+}
+
+mat-card-content > p{
+    line-height: 26px;
+}
+
+/* To focus on card */
+.mat-card:hover {
+    border:2px solid gray;
+    box-shadow: 0 10px 10px rgba(10,16,20,.24), 0 0 10px rgba(10,16,20,.12) !important;
+    transform: translate3d(0,0,0);
+    transition: background .4s cubic-bezier(.25,.8,.25,1),box-shadow 220ms cubic-bezier(.4,0,.2,1);
+}
+
+button:hover{
+    box-shadow: 0 10px 10px rgba(10,16,20,.24), 0 0 10px rgba(10,16,20,.12) !important;
+    font-size: 15px;
+}
+/* testimonials*/
+* {
+    box-sizing: border-box;
+  }
+  .page-width {
+    max-width: 1200px;
+    margin: auto;
+  }
+  .text-left {
+    text-align: left;
+  }
+  .quotes {
+    display: flex;
+    padding: 5rem 2rem;
+    align-items: center;
+    min-height: 100vh;
+  }
+  
+  .quotes-slide {
+    width: 33%;
+    padding: 3rem;
+    background-color: white;
+    opacity: .4;
+    cursor: pointer;
+    box-shadow: 0px 0px 0px 1px #d5d5d5;
+    line-height: 1.75;
+    font-family: 'Roboto', sans-serif;
+    transition: all .5s ease;
+    outline: none;
+  }
+  
+  .quotes-slide--active {
+      transform: scale(1.2);
+      z-index: 10;
+      opacity: 1;
+      border: none;
+      box-shadow: 1px 0px 10px 5px #eaeaea;
+      color: #222222;
+  }
+  blockquote {
+    margin: 0;
+  }
+  cite{
+    font-style: normal;
+    font-family: 'Roboto', sans-serif;
+    font-size: .9rem;
+  }
+  cite::before {
+      content: '\2014 \0020';
+  }
+  .icon {
+    width: 25px;
+    height: 25px;
+    fill: #1a73e8;
+  }
+
+
+/* Utility classes */
+.text-align {
+    text-align: center;
+}
+
+
+  
