@@ -1,16 +1,22 @@
 header{
     padding:0px;  
+    margin-top: 30px;
+    margin-bottom: 30px;
+    
 }
 .navbar{
-    justify-content: space-between;
+    /* justify-content: space-between; */
     font-weight:normal;
     font-size: medium;
-    background-color: #ffd3e8;
+    /* background-color: transparent; */
     color: rgb(0, 0, 0);
     height: 60px;
+    position:fixed;
+    margin-left: 0px;
+    
   }
   span{
-    padding-right:1rem;
+    padding-right:0rem;
     
   }
   /*Logo styling*/
@@ -31,11 +37,27 @@ header{
   
   .btn
 {
-    background-color: #ffd3e8;
+    
     color: rgb(0, 0, 0);
     border: none;
     cursor: pointer;
     padding: 2px 15px 3px 15px;
     text-decoration: none;
+
+}
+
+ .navbar {
+  background-color: var(--navbar-scroll);
+  transition: background-color 1s ease;
+  color: var(--navbar-scroll-text);
+  -webkit-box-shadow: var(--navbar-scroll-shadow);
+  box-shadow: var(--navbar-scroll-shadow);
+} 
+mat-toolbar{
+  background-color:	#30D5C8; /* For browsers that do not support gradients  #30D5C8*/
+  background-image: linear-gradient(180deg, #1dd8c8, #b0f0f8);
+  color: white;
+ margin-top: 0px;
+ padding:0px;
 
 }

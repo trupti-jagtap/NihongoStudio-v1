@@ -14,11 +14,13 @@ import { MatIconModule} from '@angular/material/icon';
 
 
 
+
 @NgModule({
   declarations: [
     HeaderComponent,
     SidebarComponent,
-    FooterComponent],
+    FooterComponent,
+  ],
   imports: [
     CommonModule,
     RouterModule,

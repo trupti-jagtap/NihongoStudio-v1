@@ -11,5 +11,7 @@ export class HomepageComponent implements OnInit {
 
   ngOnInit(): void {
   }
-
+  playVideo(event:any) {
+    event.toElement.play()
+ }
 }

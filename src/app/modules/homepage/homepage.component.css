@@ -1,12 +1,28 @@
 *{
     font-size: 17px;
+    line-height: 2rem;
 }
 img{
     width: 100%;
-    background-color: black;
-    opacity: 0.9;
+    /* background-color: black; */
+    opacity: 85%;
+    height: 70%;
+    position:relative;
+    z-index:1000;
+    left: 0;
+    right:0;   
 }
 
+video{
+  width: 100%;
+    /* background-color: black; */
+    opacity: 85%;
+    height: 70%;
+    position:relative;
+    z-index:1000;
+    left: 0;
+    right:0;   
+}
 .first_section{
     width: 80%;
     text-align: left;
@@ -140,4 +156,14 @@ button:hover{
 }
 
 
-  
+/*Navbar*/
+body{
+  --navbar-scroll: transparent; 
+  --navbar-scroll-text: white;
+  --navbar-scroll-shadow: none;
+ }
+ 
+ #question
+ {
+   background-color: #D7E3F2;
+ }

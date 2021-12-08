@@ -17,11 +17,12 @@ import { FoodWordsComponent } from './practice_component/food-words/food-words.c
 import { NumbersComponent } from './practice_component/numbers/numbers.component';
 import { TravellingWordsComponent } from './practice_component/travelling-words/travelling-words.component';
 import { WritingComponent } from './practice_component/writing/writing.component';
+import { SidebarComponent } from './shared/components/sidebar/sidebar.component';
 
 const routes: Routes = [
   {
     path: '',
-    component: DefaultComponent,
+    component:DefaultComponent,
     children: [{
       path: 'courses',
       component: CoursesMainComponent,

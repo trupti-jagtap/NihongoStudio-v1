@@ -1,99 +1,104 @@
-<script>
-    const testimonialPage = document.querySelector(".quotes-slide[data-slider-slide-index='1']");
-testimonialPage.classList.add("quotes-slide--active");
-
-
-document.querySelector(".quotes").addEventListener("mouseout", function(){
-  document.querySelector(".quotes-slide--active").classList.remove("quotes-slide--active")
-  document.querySelector(".quotes-slide[data-slider-slide-index='1']").classList.add("quotes-slide--active")
-});
-
-
-document.querySelectorAll(".quotes-slide").forEach( 
-  elem => elem.addEventListener("mouseover", function(){
-    document.querySelector(".quotes-slide--active").classList.remove("quotes-slide--active")
-    this.classList.add("quotes-slide--active")
-  })
-)
-</script>
-
-<img src="assets/new_homepage1.jpg" alt="Japan_view">
+<video (click)="playVideo($event)" autoplay loop>
+    <source src="assets\visual.mp4" type="video/mp4">
+</video>
+<div id="question">
+    Want to learn Japanese?
+    NihongoStudio は誰でも楽しく日本語を学べる場所です。
+</div>
 <div class="first_section">
     <h1 style="color: red; text-align: center; font-size: 3rem; font-weight: bolder; padding-top: 15px;">こんにちわ</h1>
     <br>
-    <h3 style="font-weight: 600; font-size: 20px; padding-left:20px;">Want to speak like Native Japanese Speaker and make great career in Japan?</h3>
-    
-    <p style="padding-left: 20px; "> NihongoStudio is an emerging learner focused website which offers Japanese E-learning, Study abroad, Recuitment support, visa service. If you want to learn most spoken dynamic language then you are a right platform. A user can learn more Japanese in lesser time and can become document ready for career in Japan with us. We are helping you to become job ready and fluent japanese speaker through excellent courses.</p>
+    <h3 style="font-weight: 600; font-size: 20px; padding-left:20px;">Want to speak like Native Japanese Speaker and
+        make great career in Japan?</h3>
+
+    <p style="padding-left: 20px; "> NihongoStudio is an emerging learner focused website which offers Japanese
+        E-learning, Study abroad, Recuitment support, visa service. If you want to learn most spoken dynamic language
+        then you are a right platform. A user can learn more Japanese in lesser time and can become document ready for
+        career in Japan with us. We are helping you to become job ready and fluent japanese speaker through excellent
+        courses.</p>
 </div>
 <div class="sec2">
     <p>Multiple study modes
-        Everyone learns in a different way, and NihongoStudio integrates multiple study modes so you can learn in the most effective way for you.
+        Everyone learns in a different way, and NihongoStudio integrates multiple study modes so you can learn in the
+        most effective way for you.
         Formal lessons
         Self study
         Games, quizzes, and challenges
         Reading</p>
-        <img src="assets/mountains.png" alt="mountains">
+    <img src="assets/mountains.png" alt="mountains">
 </div>
 <div class="call_to_action_cards">
     <mat-card class="mat-elevation-z4">
-        <mat-card-title class="card_header text-align">Japanese Learning</mat-card-title> 
-            <!-- <img mat-card-image class="card_img" src="assets/beginner.jpeg" mat-card-avatar> -->
+        <mat-card-title class="card_header text-align">Japanese Learning</mat-card-title>
+       
         <mat-card-content>
             <p class="text-align">
-                Join us on our Excluive courses and become fluent in Japanese Langugae. Enroll the courses and become expert in Japanese.
+                Join us on our Excluive courses and become fluent in Japanese Langugae. Enroll the courses and become
+                expert in Japanese.
             </p>
-        </mat-card-content>   
+        </mat-card-content>
         <mat-card-actions>
             <button mat-button routerLink="/courses/beginner">Know more</button>
         </mat-card-actions>
     </mat-card>
-    
+
     <mat-card class="mat-elevation-z4">
-        <mat-card-title class="card_header text-align">Services</mat-card-title>  
-        <!-- <img mat-card-image class="card_img" src="assets/beginner.jpeg" mat-card-avatar> -->
+        <mat-card-title class="card_header text-align">Services</mat-card-title>
+    
         <mat-card-content>
             <p class="text-align">
-                We are providing counceling, Translation services, Scolarships, guiding about Business Etiquettes, so take benefit of these services and become ready to go to JAPAN.
+                We are providing counceling, Translation services, Scolarships, guiding about Business Etiquettes, so
+                take benefit of these services and become ready to go to JAPAN.
             </p>
-        </mat-card-content>    
+        </mat-card-content>
         <mat-card-actions>
-            <button mat-button routerLink="/courses/beginner" >Know more</button>
+            <button mat-button routerLink="/courses/beginner">Know more</button>
         </mat-card-actions>
     </mat-card>
 </div>
 
 <div>
     <div class="quotes page-width">
-        <div class="quotes-slide slideshow__slide--active"  data-slider-slide-index="0" aria-hidden="false" tabindex="-1">
+        <div class="quotes-slide slideshow__slide--active" data-slider-slide-index="0" aria-hidden="false"
+            tabindex="-1">
             <blockquote class="quotes-slider__text text-left">
                 <span class="quote-icon">
-                  <svg aria-hidden="true" focusable="false" role="presentation"  class="icon icon-quote" viewBox="0 0 41 35">
-                        <path d="M10.208 17.711h6.124v16.332H0V21.684C0 8.184 5.444.956 16.332 0v6.125c-4.083 1.14-6.124 4.414-6.124 9.82v1.766zm24.498 0h6.124v16.332H24.498V21.684C24.498 8.184 29.942.956 40.83 0v6.125c-4.083 1.14-6.124 4.414-6.124 9.82v1.766z"                         ></path>
+                    <svg aria-hidden="true" focusable="false" role="presentation" class="icon icon-quote"
+                        viewBox="0 0 41 35">
+                        <path
+                            d="M10.208 17.711h6.124v16.332H0V21.684C0 8.184 5.444.956 16.332 0v6.125c-4.083 1.14-6.124 4.414-6.124 9.82v1.766zm24.498 0h6.124v16.332H24.498V21.684C24.498 8.184 29.942.956 40.83 0v6.125c-4.083 1.14-6.124 4.414-6.124 9.82v1.766z">
+                        </path>
                     </svg>
                 </span>
-    
+
                 <div class="content">
-                    <p>Must go faster. Hey, take a look at the earthlings. Goodbye! I was part of something special. Jaguar
-                        shark! So tell me - does it really exist? They're using our own satellites against us. And the clock
+                    <p>Must go faster. Hey, take a look at the earthlings. Goodbye! I was part of something special.
+                        Jaguar
+                        shark! So tell me - does it really exist? They're using our own satellites against us. And the
+                        clock
                         is ticking. Must go faster... go, go, go, go, go!
                     </p>
                 </div>
                 <cite>Jeff Goldblum</cite>
             </blockquote>
         </div>
-    
-        <div class="quotes-slide slideshow__slide--active" data-slider-slide-index="1" aria-hidden="false" tabindex="-1">
+
+        <div class="quotes-slide slideshow__slide--active" data-slider-slide-index="1" aria-hidden="false"
+            tabindex="-1">
             <blockquote class="quotes-slider__text text-left">
                 <span class="quote-icon"><svg aria-hidden="true" focusable="false" role="presentation"
                         class="icon icon-quote" viewBox="0 0 41 35">
-                        <path d="M10.208 17.711h6.124v16.332H0V21.684C0 8.184 5.444.956 16.332 0v6.125c-4.083 1.14-6.124 4.414-6.124 9.82v1.766zm24.498 0h6.124v16.332H24.498V21.684C24.498 8.184 29.942.956 40.83 0v6.125c-4.083 1.14-6.124 4.414-6.124 9.82v1.766z">
+                        <path
+                            d="M10.208 17.711h6.124v16.332H0V21.684C0 8.184 5.444.956 16.332 0v6.125c-4.083 1.14-6.124 4.414-6.124 9.82v1.766zm24.498 0h6.124v16.332H24.498V21.684C24.498 8.184 29.942.956 40.83 0v6.125c-4.083 1.14-6.124 4.414-6.124 9.82v1.766z">
                         </path>
                     </svg>
                 </span>
-    
+
                 <div class="content">
-                    <p>I was part of something special. God help us, we're in the hands of engineers. Jaguar shark! So tell
-                        me - does it really exist? Checkmate... We gotta burn the rain forest, dump toxic waste, pollute the
+                    <p>I was part of something special. God help us, we're in the hands of engineers. Jaguar shark! So
+                        tell
+                        me - does it really exist? Checkmate... We gotta burn the rain forest, dump toxic waste, pollute
+                        the
                         air, and rip up the OZONE! 'Cause maybe if we screw up this planet enough, they won't want it
                         anymore!
                     </p>
@@ -101,17 +106,22 @@ document.querySelectorAll(".quotes-slide").forEach(
                 <cite>Jeff Goldblum</cite>
             </blockquote>
         </div>
-    
-        <div  class="quotes-slide slideshow__slide--active"  data-slider-slide-index="2"  aria-hidden="false" tabindex="-1">
+
+        <div class="quotes-slide slideshow__slide--active" data-slider-slide-index="2" aria-hidden="false"
+            tabindex="-1">
             <blockquote class="quotes-slider__text text-left">
                 <span class="quote-icon"><svg aria-hidden="true" focusable="false" role="presentation"
                         class="icon icon-quote" viewBox="0 0 41 35">
-                        <path d="M10.208 17.711h6.124v16.332H0V21.684C0 8.184 5.444.956 16.332 0v6.125c-4.083 1.14-6.124 4.414-6.124 9.82v1.766zm24.498 0h6.124v16.332H24.498V21.684C24.498 8.184 29.942.956 40.83 0v6.125c-4.083 1.14-6.124 4.414-6.124 9.82v1.766z"></path>
+                        <path
+                            d="M10.208 17.711h6.124v16.332H0V21.684C0 8.184 5.444.956 16.332 0v6.125c-4.083 1.14-6.124 4.414-6.124 9.82v1.766zm24.498 0h6.124v16.332H24.498V21.684C24.498 8.184 29.942.956 40.83 0v6.125c-4.083 1.14-6.124 4.414-6.124 9.82v1.766z">
+                        </path>
                     </svg>
                 </span>
                 <div class="content">
-                    <p>Must go faster... go, go, go, go, go! Yes, Yes, without the oops! Life finds a way. My dad once told
-                        me, laugh and the world laughs with you, Cry, and I'll give you something to cry about you little
+                    <p>Must go faster... go, go, go, go, go! Yes, Yes, without the oops! Life finds a way. My dad once
+                        told
+                        me, laugh and the world laughs with you, Cry, and I'll give you something to cry about you
+                        little
                         bastard! Hey, you know how I'm, like, always trying to save the planet? Here's my chance.</p>
                 </div>
                 <cite>Jeff Goldblum</cite>
@@ -119,3 +129,5 @@ document.querySelectorAll(".quotes-slide").forEach(
         </div>
     </div>
 </div>
+
+
