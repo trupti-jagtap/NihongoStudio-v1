@@ -46,6 +46,7 @@ video{
 .call_to_action_cards{
     display: flex;
     justify-content: space-evenly;
+    background-color: white !important;
 }
 .call_to_action_cards > mat-card {
     width: 350px;
@@ -163,7 +164,41 @@ body{
   --navbar-scroll-shadow: none;
  }
  
+ /*Call out section*/
  #question
  {
    background-color: #D7E3F2;
+   text-align: center;
+   height:220px;
+   padding-top: 20px;
+   
  }
+
+
+
+ h1{
+   font-weight: bold;
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+ }
+a{
+  color: #fff!important;
+  background-color: #ffb803!important;
+  min-height: 42px;
+    padding: 10px 28px;
+    text-decoration: none;
+    
+    border-radius:99px;
+}
+
+.section1{
+  display: flex;
+  /* width: 1000px; */
+  justify-content: space-evenly;
+  
+ 
+}
+
+.paragraph1{
+  width: 600px;
+  line-height: 2.5rem;
+}
