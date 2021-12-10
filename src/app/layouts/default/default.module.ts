@@ -26,7 +26,9 @@ import { HttpClientModule } from "@angular/common/http";
 import { NoopAnimationsModule } from '@angular/platform-browser/animations';
 import { MatInputModule } from "@angular/material/input";
 import { HomepageComponent } from 'src/app/modules/homepage/homepage.component';
-
+import {MatExpansionModule} from '@angular/material/expansion';
+import {MatButtonModule} from '@angular/material/button';
+import { FormsModule } from '@angular/forms';
 
 
 @NgModule({
@@ -58,7 +60,10 @@ import { HomepageComponent } from 'src/app/modules/homepage/homepage.component';
     MatToolbarModule,
     ReactiveFormsModule,
     HttpClientModule,
-    MatInputModule
+    MatInputModule,
+    MatExpansionModule,
+    MatButtonModule,
+    FormsModule
   ]
 })
 export class DefaultModule { }

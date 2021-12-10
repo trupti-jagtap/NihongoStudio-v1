@@ -205,6 +205,10 @@ a{
 
 /* testimonials */
 
+#Testimonial{
+  margin: 5rem;
+}
+
 mat-card .single_card_testi:hover{
     /* border:2px solid gray; */
     box-shadow: 0 15px 15px rgba(10,16,20,.24), 0 0 10px rgba(10,16,20,.12) !important;

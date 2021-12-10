@@ -1,1 +1,103 @@
-<p>travelling-words works!</p>
+<div class="cards">
+    <mat-card class="example-card">
+        <mat-card-header>
+          <!-- <div mat-card-avatar class="example-header-image"></div> -->
+          <mat-card-title>Tokyo -Essence Of Japan</mat-card-title>
+          <mat-card-subtitle style="color:red; font-size: 20px; font-weight: bolder;">とうきょう</mat-card-subtitle>
+        </mat-card-header>
+        <img mat-card-image src="assets/tokyo.jpg" alt="Photo of a Shiba Inu">
+        <mat-card-content *ngIf="!collapsed1">
+           <p>Tokyo is the city that reflects the colors of Japan. In Japan, places to visit are endless, and exploring everything in one trip would always be impossible. But, the popular city of Tokyo still deserves the top spot in your itinerary, thanks to its anime culture and world-class attractions. And if the historical sites don't impress you much, the city has also got a great culinary scene! This is undoubtedly amongst the best places to visit in Japan.</p>
+        </mat-card-content>
+        <mat-card-actions>
+            <button mat-raised-button (click)="collapsed1=false" style="background-color: #30D5C8; color:white; font-weight: 900; ">Show</button>
+           <button mat-raised-button (click)="collapsed1=true"  style="background-color: #30D5C8; color:white; font-weight: 900; ">Hide </button>
+        </mat-card-actions>
+    </mat-card>
+    
+      <mat-card class="example-card">
+        <mat-card-header>
+          <!-- <div mat-card-avatar class="example-header-image"></div> -->
+          <mat-card-title>Kyoto – Sacred And Serene</mat-card-title>
+          <mat-card-subtitle style="color:red; font-size: 20px; font-weight: bolder;">きょうと</mat-card-subtitle>
+        </mat-card-header>
+        <img mat-card-image src="assets/kyoto.jpg" alt="Photo of a Shiba Inu">
+        <mat-card-content *ngIf="!collapsed2">
+           <p>The city of shrines, gardens & palaces! Of all the major Japan destinations, the sacred city of Kyoto is one of the best places to visit in Japan in spring irrespective of whether you are holidaying with your family or your partner. The iconic temples, shrines, palaces, gardens, and the bamboo forests are a treat to the eyes, and you cannot afford to miss it on your first trip.</p>
+        </mat-card-content>
+        <mat-card-actions>
+            <button mat-raised-button (click)="collapsed2=false" style="background-color: #30D5C8; color:white; font-weight: 900; ">Show</button>
+           <button mat-raised-button (click)="collapsed2=true"  style="background-color: #30D5C8; color:white; font-weight: 900; ">Hide </button>
+        </mat-card-actions>
+      </mat-card>
+    
+      <mat-card class="example-card">
+        <mat-card-header>
+          <!-- <div mat-card-avatar class="example-header-image"></div> -->
+          <mat-card-title>Mt. Fuji - A Breathtaking Marvel </mat-card-title>
+          <mat-card-subtitle style="color:red; font-size: 20px; font-weight: bolder;">ふじやま</mat-card-subtitle>
+        </mat-card-header>
+        <img mat-card-image src="assets/mt-fuji.jpg" alt="Photo of a Shiba Inu">
+        <mat-card-content *ngIf="!collapsed3">
+           <p>The paradise for adventure seekers! Renowned around the world for offering the most thrilling experience in Japan, Mt. Fuji is the ultimate place to visit and definitely one of the most romantic places in Japan. While the official climbing season begins from July and ends in September, you can witness the beauty from a distance throughout the year. It is one of our most favorite places in Japan. Needless to say, this place ought to be on your list!</p>
+        </mat-card-content>
+        <mat-card-actions>
+            <button mat-raised-button (click)="collapsed3=false" style="background-color: #30D5C8; color:white; font-weight: 900; ">Show</button>
+           <button mat-raised-button (click)="collapsed3=true"  style="background-color: #30D5C8; color:white; font-weight: 900; ">Hide </button>
+        </mat-card-actions>
+      </mat-card>
+    
+      <!-- ----------------------------- -->
+      <mat-card class="example-card">
+        <mat-card-header>
+          <!-- <div mat-card-avatar class="example-header-image"></div> -->
+          <mat-card-title>Osaka - A Cultural Delight</mat-card-title>
+          <mat-card-subtitle style="color:red; font-size: 20px; font-weight: bolder;">おおさか</mat-card-subtitle>
+        </mat-card-header>
+        <img mat-card-image src="assets/osaka.jpg" alt="Photo of a Shiba Inu">
+        <mat-card-content *ngIf="!collapsed1">
+           <p>With the best shopping arcades, eateries that offer incredible food, and the top nightlife hotspots in the city, Osaka is one of the major places to go in Japan. Believe us, it would not only pamper the foodie or party lover in you, but also the die-hard tourist who loves witnessing the wonders of every place he or she visits. This is most preferred places to visit in japan for first timers!</p>
+        </mat-card-content>
+        <mat-card-actions>
+            <button mat-raised-button (click)="collapsed1=false" style="background-color: #30D5C8; color:white; font-weight: 900; ">Show</button>
+           <button mat-raised-button (click)="collapsed1=true"  style="background-color: #30D5C8; color:white; font-weight: 900; ">Hide </button>
+        </mat-card-actions>
+    </mat-card>
+
+    <mat-card class="example-card">
+        <mat-card-header>
+          <!-- <div mat-card-avatar class="example-header-image"></div> -->
+          <mat-card-title>Shibuya - A Bustling City</mat-card-title>
+          <mat-card-subtitle style="color:red; font-size: 20px; font-weight: bolder;">しぶや</mat-card-subtitle>
+        </mat-card-header>
+        <img mat-card-image src="assets/shibuya.jpg" alt="Photo of a Shiba Inu">
+        <mat-card-content *ngIf="!collapsed1">
+           <p>It is said that Shibuya has an impressive 2.8 millions footfall on a regular weekday. This is so because not only does this place have a spectacular crossing or as they say, ‘scramble crossing’ which is surely nothing less than a sight to behold, it also has multiple shopping places with really cool clothing brands of Tokyo. This makes Shibuya  a top place for shopping in Japan. One of the main shopping places include the famous 109 shopping mall which is located in close proximity to the train station of Shibuya.</p>
+        </mat-card-content>
+        <mat-card-actions>
+            <button mat-raised-button (click)="collapsed1=false" style="background-color: #30D5C8; color:white; font-weight: 900; ">Show</button>
+           <button mat-raised-button (click)="collapsed1=true"  style="background-color: #30D5C8; color:white; font-weight: 900; ">Hide </button>
+        </mat-card-actions>
+    </mat-card>
+
+    <mat-card class="example-card">
+        <mat-card-header>
+          <!-- <div mat-card-avatar class="example-header-image"></div> -->
+          <mat-card-title>Hokkaido – Closer To Nature</mat-card-title>
+          <mat-card-subtitle style="color:red; font-size: 20px; font-weight: bolder;">ほっかいどう</mat-card-subtitle>
+        </mat-card-header>
+        <img mat-card-image src="assets/hokaidu.jpg" alt="Photo of a Shiba Inu">
+        <mat-card-content *ngIf="!collapsed1">
+           <p></p>
+        </mat-card-content>
+        <mat-card-actions>
+            <button mat-raised-button (click)="collapsed1=false" style="background-color: #30D5C8; color:white; font-weight: 900; ">Show</button>
+           <button mat-raised-button (click)="collapsed1=true"  style="background-color: #30D5C8; color:white; font-weight: 900; ">Hide </button>
+        </mat-card-actions>
+    </mat-card>
+</div>
+
+
+
+
+

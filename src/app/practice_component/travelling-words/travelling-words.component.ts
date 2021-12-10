@@ -7,9 +7,11 @@ import { Component, OnInit } from '@angular/core';
 })
 export class TravellingWordsComponent implements OnInit {
 
+  panelOpenState = false;
+  collapsed1 = true;
+  collapsed2 = true;
+  collapsed3 = true;
   constructor() { }
-
   ngOnInit(): void {
   }
-
 }
