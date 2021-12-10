@@ -65,7 +65,8 @@ const routes: Routes = [
     {
       path: 'contact_us',
       component: ContactusComponent
-    },
+    }
+    ,
     {
       path:'practice/1000_common_words',
       component: CommonWordsComponent

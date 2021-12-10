@@ -202,3 +202,25 @@ a{
   width: 600px;
   line-height: 2.5rem;
 }
+
+/* testimonials */
+
+mat-card .single_card_testi:hover{
+    /* border:2px solid gray; */
+    box-shadow: 0 15px 15px rgba(10,16,20,.24), 0 0 10px rgba(10,16,20,.12) !important;
+    transform: translate3d(0,0,0);
+    transition: background .4s cubic-bezier(.25,.8,.25,1),box-shadow 220ms cubic-bezier(.4,0,.2,1);
+}
+
+.single_card_testi{
+  width:45%;
+  display:inline-flex;
+  margin:1rem;
+  padding: 12px;
+    text-align: center;
+}
+
+.testi{
+  width: 100px;
+  height: 100px;
+}
