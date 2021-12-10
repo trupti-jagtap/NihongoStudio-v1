@@ -11,6 +11,9 @@ export class TravellingWordsComponent implements OnInit {
   collapsed1 = true;
   collapsed2 = true;
   collapsed3 = true;
+  collapsed4 = true;
+  collapsed5 = true;
+  collapsed6 = true;
   constructor() { }
   ngOnInit(): void {
   }

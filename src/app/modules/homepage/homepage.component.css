@@ -50,7 +50,7 @@ video{
 }
 .call_to_action_cards > mat-card {
     width: 350px;
-    height:250px ;
+    height:270px ;
     background-color: #EAFDFB;
     background-image: linear-gradient(to right, #ebeeee, #c4ebe8);
     margin: 35px;
@@ -68,8 +68,8 @@ button{
     text-align: center;
     /* position:  */
     position: absolute;
-    top: 76%;
-    left: 16%;
+    top: 85%;
+    left: 50%;
     width: 300px;
     transform: translate(-50%, -50%);
 }
